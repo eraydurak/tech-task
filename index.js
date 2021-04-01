@@ -19,19 +19,19 @@ window.onload = function () {
     const allProducts = [
       {
         isim: "Karaca 20cm Tencere",
-        fiyat: "99.99 &#8378;",
+        fiyat: "199.99 &#8378;",
         gorsel:
           "https://cdn.krc.com.tr/image/cache/cdndata/185/1313110/image153.03.07.7040-19-900.jpg",
       },
       {
-        isim: "Karaca 26cm Paslanmaz Tava",
-        fiyat: "40 &#8378;",
+        isim: "Karaca 26cm Tava",
+        fiyat: "199.99 &#8378;",
         gorsel:
           "https://cdn.krc.com.tr/image/cache/cdndata/185/1313110/image153.03.07.7040-21-900.jpg",
       },
       {
         isim: "Karaca 26cm Karnıyarık Tencere",
-        fiyat: "129.99 &#8378;",
+        fiyat: "239.99 &#8378;",
         gorsel:
           "https://cdn.krc.com.tr/image/cache/cdndata/185/1313110/image153.03.07.7040-20-900.jpg",
       },

@@ -23,6 +23,7 @@ body {
 }
 .container-fluid h4 {
   visibility: hidden;
+  display: none;
 }
 
 .container-fluid .slider-items {
@@ -31,7 +32,7 @@ body {
 
 .container-fluid .item-img-1 {
   background: url("https://cdn.krc.com.tr/image/cache/cdndata/185/1313110/image153.03.07.7040-16-900.jpg");
-  background-size: contain;
+  /* background-size: contain; */
 }
 .container-fluid .item-img-2 {
   background: url("https://cdn.krc.com.tr/image/cache/cdndata/185/1416106/image153.03.08.0183-20-900.jpg");
@@ -47,7 +48,7 @@ body {
 
 .container-fluid .item-img {
   /* width: 700px; */
-  height: 750px;
+  height: 650px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,7 +140,7 @@ body {
 }
 
 #tag6 {
-  left: 12%;
+  left: 17%;
   bottom: 10%;
   opacity: 1;
 }
@@ -167,6 +168,7 @@ span.price {
     visibility: hidden;
   }
   h4 {
+    display: block !important;
     visibility: visible !important;
     position: absolute;
     content: "";
@@ -187,19 +189,26 @@ span.price {
     margin-left: 20px;
   }
   .container-fluid .slider-items .item:nth-last-child(1) {
-    margin-left: 70px;
+    /* margin-left: 60px; */
     padding-right: 0px;
   }
+
+  .container-fluid .item-img-1{
+    background-position:center center ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  }
   .container-fluid .slider-items .item .item-img {
-    width: 325px;
+    width: 362px;
     height: 100%;
+
   }
   .info-box {
     width: 80%;
   }
   .item i.fa-times-circle {
     top: 10px;
-    left: 40px;
+    left: 30px;
     opacity: 1;
   }
   .fa-tag {
@@ -226,7 +235,20 @@ span.price {
   }
   #tag2 {
     top: 90px;
-    right: 33%;
+    right: 38%;
     transform: rotate(90deg);
+  }
+  #tag4{
+    top:10%;
+  }
+  #tag7{
+    right: 22%;
+  }
+  #tag5{
+    left: 50%;
+    bottom: 13%;
+  }
+  #tag6{
+    left:20%;
   }
 }
